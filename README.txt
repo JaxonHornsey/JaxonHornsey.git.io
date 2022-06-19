@@ -1,4 +1,4 @@
-A profolio website.
+A portfolio website.
 
 Credits:
 
