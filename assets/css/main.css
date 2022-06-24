@@ -2566,13 +2566,17 @@ input, select, textarea {
 	}
 
 		.image img {
-			border-radius: 0.25em;
+			border-radius: 1.25em;
 			display: block;
 			
 		}
 
-		.image.left, .image.right {
-			max-width: 40%;
+		.image.left {
+			max-width: 27%;
+		}
+
+		.image.right {
+			max-width: 50%;
 		}
 
 			.image.left img, .image.right img {
@@ -2679,6 +2683,13 @@ input, select, textarea {
 			padding: 0 0 0 1em;
 			vertical-align: middle;
 		}
+
+		ul.actions.pdf {
+			vertical-align: middle;
+			margin-left: 32%;
+		}
+
+
 
 		ul.actions.special {
 			-moz-justify-content: center;
@@ -3963,6 +3974,19 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 1280px) {
+
+			.thx_msg {
+				padding: 38vh;
+				margin: 0 0 0 0;
+				position: relative;
+				background:  linear-gradient(180deg, rgba(145, 87, 0, 0.541),rgba(2, 59, 126, 0.575));
+				text-align: center;
+				height: 50vh;
+			}
+
+		}
+
 		
 
 		.animate_name::before {
@@ -3978,7 +4002,7 @@ input, select, textarea {
 			overflow: hidden;
 			animation: animate 3s 1 forwards;
 			
-			
+			 
 		}
 
 		.animate_details::before {
@@ -3994,7 +4018,7 @@ input, select, textarea {
 			overflow: hidden;
 		
 			animation: animate 3s 1 forwards;
-			animation-delay: 1.5s;
+			animation-delay: 1s;
 			
 		}
 
@@ -4011,4 +4035,14 @@ input, select, textarea {
 				width:101%;
 				
 			}
+		}
+
+		/*  Thank you page  */
+		.thx_msg {
+			padding: 38vh;
+			margin: 0 0 0 0;
+			position: relative;
+			background:  linear-gradient(180deg, rgba(145, 87, 0, 0.541),rgba(2, 59, 126, 0.575));
+			text-align: center;
+			height: 40vh;
 		}
