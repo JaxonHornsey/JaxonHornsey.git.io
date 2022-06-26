@@ -3,11 +3,12 @@
 
 <html>
 	<head>
-		<title>Generic</title>
+		<title>Supervised Models Paper</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="icon" href="images/favicon.ico">
 	</head>
 	<body class="is-preload">
 
@@ -29,16 +30,64 @@
 				<!-- Main -->
 					<section id="main" class="wrapper">
 						<div class="inner">
-							<h1 class="major">Exploring Efficiency <br>  Amongst Supervised Models</h1>
+							<h1 class="major">Exploring Efficiency   Amongst Supervised Models</h1>
 							<!-- <span class="image fit"><img src="images/pic04.jpg" alt="" /></span> -->
 							
 
 							<section>
 									
-								<h3>Left &amp; Right</h3>
-								<p><span class="image left"><img src="images/supervised_title.png" alt="" /></span>This project was completed in group of four. The prupose of this project was to compare and contrast the efficiency between four supervised models including KNN, NN, Decisions Trees, Support Vector machiens
-									tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-								<p><span class="image right"><img src="images/juptyer_ex1.png" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+								
+								<p><span class="image left"><img src="images/supervised_title.png" alt="" /></span> 
+
+									<h4>Purpose and Environment</h4>
+									
+									&emsp; This paper is the result of a collaboration with myself and 2 other peers. We completed this project on schedule by setting ourselves milestones along with having tri-weekly meetings. 
+										
+									<br> <br> &emsp; 
+									Four supervised models (K Nearest Neighbors, Decision Trees, Multi-layer Perceptron, and Support Vector Machine) were tested on a classification dataset provided by UC Irvine Machine Learning Repository, the dataset consisted of 8124 Instances and 22 Attributes. The purpose of our tests was to determine the best prediction accuracy and speeds between our models and for this, we also needed to find our best hyperparameters. 
+									
+									<br> <br> &emsp;
+									The code for this project was written in the jupyter-notebook environment and coded in Python. Multiple Python libraries were also used for this project such as scikit-learn, pandas, numpy, and matplotlib. 
+									The scikit-learn library has standard functions for the implementation of each of our 4 models. As well as a grid search cross-validation method that allows us to find the best hyper parameters. </p>
+								
+								
+									<p><span class="image right"><img src="images/supervisedGit.png" alt="" /></span>
+									
+										<h4>Our Project Consisted of These Main Milestones</h4>
+									<ol>
+										<li>Retrieve and modify the data for use.</li>
+											<ul>
+												<li>To modify the data we used pandas to convert the excel data into a data frame.</li>
+												<li>Converted string values to numerics to be used by models.</li>
+												<li>Separated classification results to predict.</li>
+											</ul>
+
+										<li>Create a training set for each model to learn from.</li>
+											<ul>
+												<li>Implemented the train_test_split method from sklearn to split our data into random train and test subset.</li>
+												<li>Use our random subsets as our test set for each model.</li>
+											</ul>
+
+										<li>Run identical tests for each model.</li>
+											<ul>
+												<li>Record time and accuracy with bad parameters.</li>
+												<li>Record time and accuracy with the best parameters.</li>
+												<li>Try with different numerous test sets and average out results.</li>
+											</ul>
+
+										<li>Create a statistical model to appropriately demonstrate the results.</li>
+											<ul>
+												<li>Use matplotlib and seaborn to graph results using classification tables, confusion matrices, and any other appropriate visual. </li>
+											</ul>
+
+										<li>Compare and delve deeper into the results. </li>
+											<ul>
+												<li>Look at the results for each algorithm against itself, and the advantages of using grid search cross-validation.</li>
+												<li>Compare the best results of each algorithm against one other and look into why that may be.</li>
+											</ul>
+									</ol>
+									<br><br>
+								</p>
 							
 							</section>
 

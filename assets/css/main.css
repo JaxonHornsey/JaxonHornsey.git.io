@@ -2575,6 +2575,10 @@ input, select, textarea {
 			max-width: 27%;
 		}
 
+		.image.left.kinwin {
+			max-width: 42%;
+		}
+
 		.image.right {
 			max-width: 50%;
 		}
@@ -2621,6 +2625,10 @@ input, select, textarea {
 		list-style: decimal;
 		margin: 0 0 2em 0;
 		padding-left: 1.25em;
+	}
+
+	.IPDgit {
+		margin: 0 0 -10em 0;
 	}
 
 		ol li {
