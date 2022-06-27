@@ -3024,11 +3024,10 @@ input, select, textarea {
 			background-position: center center;
 			background-size: cover;
 			border-radius: 35%;
-			margin: 1ex;
+			margin: 7px;
 			display: block;
 			position: relative;
-			width: 25em;
-			background-size: 100% 100%;
+			width: 22em;		
 		}
 
 			.spotlights > section > .image img {
@@ -3121,7 +3120,8 @@ input, select, textarea {
 
 				.spotlights > section > .image {
 					width: 100%;
-					height: 50vh;
+					height: 71vh;
+					margin: 0;
 				}
 
 				.spotlights > section > .content {
@@ -3135,6 +3135,24 @@ input, select, textarea {
 					-ms-transform: translateY(1em);
 					transform: translateY(1em);
 				}
+
+			.image.left {
+				max-width: 100%;
+				float: none;
+			}
+
+			.image.right {
+				max-width: 100%;
+				float: none;
+			}
+
+			.image.left.kinwin {
+				max-width: 100%;
+			}
+
+			#header > nav > ul {
+				margin-left: 3em;
+			}
 
 		}
 
