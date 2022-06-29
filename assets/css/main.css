@@ -168,6 +168,11 @@ input, select, textarea {
 
 	p {
 		margin: 0 0 2em 0;
+		
+	}
+
+	p.proj_img {
+		text-align: center;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2572,7 +2577,7 @@ input, select, textarea {
 		}
 
 		.image.left {
-			max-width: 27%;
+			max-width: 30%;
 		}
 
 		.image.left.kinwin {
@@ -2583,8 +2588,17 @@ input, select, textarea {
 			max-width: 50%;
 		}
 
+		.image.right.IPD {
+			margin: 67px 78px 1em 1.5em;;
+		}
+
+		.image.right.Sup {
+			margin: 79px 0px 1em 1.5em;;
+		}
+
 			.image.left img, .image.right img {
 				width: 100%;
+				margin-bottom: 20px;
 			}
 
 		.image.left {
@@ -3027,7 +3041,7 @@ input, select, textarea {
 			margin: 7px;
 			display: block;
 			position: relative;
-			width: 22em;		
+			width: 25em;		
 		}
 
 			.spotlights > section > .image img {
@@ -3441,6 +3455,7 @@ input, select, textarea {
 			#header > nav > ul {
 				margin: 0;
 				padding: 0;
+				text-align: center;
 			}
 
 				#header > nav > ul > li {
@@ -4071,4 +4086,10 @@ input, select, textarea {
 			background:  linear-gradient(180deg, rgba(145, 87, 0, 0.541),rgba(2, 59, 126, 0.575));
 			text-align: center;
 			height: 40vh;
+		}
+
+		.proj_text  {
+			background-color: #00000036;
+			padding: 20px;
+			border-radius: 20px;
 		}
