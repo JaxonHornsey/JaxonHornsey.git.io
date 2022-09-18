@@ -3038,10 +3038,10 @@ input, select, textarea {
 			background-position: center center;
 			background-size: cover;
 			border-radius: 35%;
-			margin: 7px;
+			margin: 28px;
 			display: block;
 			position: relative;
-			width: 25em;		
+			width: 20em;		
 		}
 
 			.spotlights > section > .image img {
@@ -3133,9 +3133,11 @@ input, select, textarea {
 			}
 
 				.spotlights > section > .image {
-					width: 100%;
-					height: 71vh;
 					margin: 0;
+					height: 47%;
+    				width: 51%;
+    				margin-left: 25%;
+    				min-height: 26em;
 				}
 
 				.spotlights > section > .content {
@@ -3173,7 +3175,9 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.spotlights > section > .image {
-				height: 50vh;
+				height: 60%;
+    			width: 60%;
+    			margin-left: 20%;
 				min-height: 15em;
 			}
 
@@ -3255,8 +3259,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		
-		background:  linear-gradient(180deg, rgba(145, 87, 0, 0.541),rgba(2, 59, 126, 0.575));
+		background: linear-gradient(90deg, rgba(15,0,36,1) 0%, rgba(41,50,60,1) 35%, rgba(51,83,67,1) 100%);
 	}
 
 		.wrapper > .inner {
@@ -3290,11 +3293,12 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background: linear-gradient(0deg, rgba(145, 87, 0, 0.541),rgba(2, 59, 126, 0.575));
+			background: linear-gradient(to left, #3c292b 0%, #293c3a 100%);
+			box-shadow: 15px 0px 20px 0px #3c292b;			
 		}
 
 		.wrapper.style1 {
-			background : rgba(32, 103, 255, 0.685);
+			background : #262f37
 			
 		}
 
@@ -3307,8 +3311,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background : linear-gradient(180deg, rgba(145, 87, 0, 0.541),rgba(7, 123, 255, 0.575));
-			
+			background: linear-gradient(90deg, rgba(15,0,36,1) 0%, rgba(41,50,60,1) 35%, rgba(51,83,67,1) 100%);	
 		}
 
 		.wrapper.style2-alt {
@@ -3433,7 +3436,8 @@ input, select, textarea {
 		
 		cursor: default;
 		padding: 1.75em 2em;
-		background: linear-gradient(0deg, rgba(0, 0, 0, 0.562),rgba(102, 61, 1, 0.993),rgba(102, 61, 1, 0.993));
+		background: linear-gradient(to left, #3c292b 0%, #293c3a 100%);
+    	box-shadow: 15px 0px 20px 0px #3c292b;
 	}
 
 		#header > .title {
@@ -3588,7 +3592,8 @@ input, select, textarea {
 	#sidebar {
 
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: linear-gradient(165deg, rgba(255, 196, 0, 0.938),rgba(102, 68, 16, 0.993),rgba(57, 128, 146, 0.993));
+		background: linear-gradient(to left, #3c292b 0%, #293c3a 100%);
+		box-shadow: 15px 0px 20px 0px #3c292b;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3622,10 +3627,11 @@ input, select, textarea {
 			-moz-transition: opacity 1s ease;
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
+			transition: opacity 2s ease;
 			min-height: 100%;
 			opacity: 1;
 			width: 100%;
+			transition-delay: 1.5s;
 		}
 
 			body.is-ie #sidebar > .inner {
@@ -3805,7 +3811,7 @@ input, select, textarea {
 			color: rgb(255, 255, 255);
 			display: block;
 			font-size: 0.9em;
-			
+			transition-delay: 4s;
 			letter-spacing: 0.25em;
 			line-height: 1.75;
 			outline: 0;
