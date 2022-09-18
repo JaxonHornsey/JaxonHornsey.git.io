@@ -87,11 +87,6 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
-		width: 100%;
-    	height: 100%;
-    	margin: 0px;
-    	padding: 0px;
-    	overflow-x: hidden; 
 	}
 
 	*, *:before, *:after {
@@ -99,11 +94,7 @@ input, select, textarea {
 	}
 
 	body {
-		width: 100%;
-    	height: 100%;
-    	margin: 0px;
-    	padding: 0px;
-    	overflow-x: hidden; 
+		background: #3f2e0000;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
